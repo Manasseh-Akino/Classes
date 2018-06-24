@@ -41,3 +41,15 @@ table, td, th {
     height: 300px;
     border-radius: 50%;
 }
+
+.flexbox > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: red;
+    font-size: 50px;
+    background-color: rgb(34, 45, 34);
+    margin: 18px;
+    padding: 10px;
+    text-align: center;
+}
